@@ -1,0 +1,12 @@
+#exportPattern("^[[:alpha:]]+")
+
+export("sim_data")
+export("surv_enrichment")
+export("surv_plot_enrichment")
+
+import(survival)
+import(ggplot2)
+importFrom("gridExtra","arrangeGrob","grid.arrange")
+importFrom("grDevices", "gray.colors", "hcl")
+importFrom("graphics", "plot")
+importFrom("stats", "qnorm", "quantile", "reshape", "rexp", "rnorm", "rweibull", "sd", "stepfun", "time")
